@@ -8222,7 +8222,7 @@ dependencies = [
 name = "spl-token-lending-cli"
 version = "0.2.0"
 dependencies = [
- "clap 2.34.0",
+ "clap 3.2.25",
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
