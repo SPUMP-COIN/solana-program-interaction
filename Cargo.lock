@@ -593,7 +593,7 @@ dependencies = [
  "borsh 1.5.3",
  "solana-program",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
  "uint",
 ]
 
@@ -3837,9 +3837,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.89"
+version = "1.0.107"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f139b0662de085916d1fb67d2b4169d1addddda1919e696f3252b740b629986e"
+checksum = "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
 dependencies = [
  "unicode-ident",
 ]
@@ -7547,7 +7547,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
  "uint",
 ]
 
@@ -7560,7 +7560,7 @@ dependencies = [
  "rand_distr",
  "solana-program",
  "spl-merkle-tree-reference",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
  "tokio",
 ]
 
@@ -7701,7 +7701,7 @@ dependencies = [
  "spl-governance-test-sdk",
  "spl-governance-tools",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7733,7 +7733,7 @@ dependencies = [
  "spl-governance-test-sdk",
  "spl-governance-tools",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7758,7 +7758,7 @@ dependencies = [
  "spl-governance-test-sdk",
  "spl-governance-tools",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7777,7 +7777,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7793,7 +7793,7 @@ dependencies = [
  "serde_derive",
  "solana-program",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7808,7 +7808,7 @@ dependencies = [
  "spl-associated-token-account 6.0.0",
  "spl-associated-token-account-client",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7832,7 +7832,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-math",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7863,7 +7863,7 @@ name = "spl-merkle-tree-reference"
 version = "0.1.0"
 dependencies = [
  "solana-program",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -7876,7 +7876,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -8214,7 +8214,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
  "uint",
 ]
 
@@ -8285,7 +8285,7 @@ dependencies = [
  "spl-token 7.0.0",
  "spl-token-2022 6.0.0",
  "test-case",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -8314,7 +8314,7 @@ dependencies = [
  "spl-token-2022 6.0.0",
  "spl-token-client",
  "test-case",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -8349,7 +8349,7 @@ dependencies = [
  "spl-associated-token-account 6.0.0",
  "spl-token 7.0.0",
  "spl-token-2022 6.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -8434,7 +8434,7 @@ dependencies = [
  "solana-sdk",
  "spl-associated-token-account-client",
  "spl-token 7.0.0",
- "thiserror 2.0.9",
+ "thiserror 2.0.19",
 ]
 
 [[package]]
@@ -8516,6 +8516,17 @@ name = "syn"
 version = "2.0.87"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "25aa4ce346d03a6dcd68dd8b4010bcb74e54e62c90c573f394c46eae99aba32d"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "unicode-ident",
+]
+
+[[package]]
+name = "syn"
+version = "3.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -8738,11 +8749,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "2.0.9"
+version = "2.0.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f072643fd0190df67a8bab670c20ef5d8737177d6ac6b2e9a236cb096206b2cc"
+checksum = "09a43598840e33d5b0331f38c5e30d13bb11c11210a4b58f0d9b18a5a5eefcd9"
 dependencies = [
- "thiserror-impl 2.0.9",
+ "thiserror-impl 2.0.19",
 ]
 
 [[package]]
@@ -8758,13 +8769,13 @@ dependencies = [
 
 [[package]]
 name = "thiserror-impl"
-version = "2.0.9"
+version = "2.0.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b50fa271071aae2e6ee85f842e2e28ba8cd2c5fb67f11fcb1fd70b276f9e7d4"
+checksum = "43cbfe0cf76104d42a574802844187e84a305e531ed54455f11fbde0f10541cd"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.87",
+ "syn 3.0.3",
 ]
 
 [[package]]
